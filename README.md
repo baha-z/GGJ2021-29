@@ -28,4 +28,5 @@ Agradecemos a Global Game Jam por la oportunidad y a todos los participantes del
 - [Phoebe (Programmer)](https://github.com/Phoebe-WD)
 
 Todos los participantes estuvieron presentes en cada idea, decisión y creación del juego.
+
 👏👏👏
