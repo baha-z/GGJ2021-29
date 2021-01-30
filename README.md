@@ -14,4 +14,4 @@ Me encuentro perdido dentro de mi propia casa, necesito abrir mi caja fuerte, pe
 
 Para comenzar a probar el juego solo debes entrar a [aquí](#).
 
-![4goturpswrd](https://i.imgur.com/5VGMRxX.jpg)
+![4goturpswrd](https://i.imgur.com/cmFcnLp.jpg)
