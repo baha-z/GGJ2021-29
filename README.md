@@ -1,6 +1,6 @@
 # 4GotUrPswrd 👨‍💻👩‍💻
 
-Es un juego creado por 6 personas que se unieron para participar en el [Globam Game Jam 2021 Online](https://globalgamejam.org/2021/jam-sites/pontificia-universidad-cat%C3%B3lica-de-chile).
+Es un juego creado por 6 personas que se unieron para participar en el [Global Game Jam 2021 Online](https://globalgamejam.org/2021/jam-sites/pontificia-universidad-cat%C3%B3lica-de-chile).
 
 ### Descripción del juego🎮
 
