@@ -1,0 +1,720 @@
+fileFormatVersion: 2
+guid: 7bb635dd35f8f204aafa82defffba000
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 283865898512726190
+    second: Caja-2
+  - first:
+      213: 8807572857751639202
+    second: Cajas-1
+  - first:
+      213: -8522995685226086824
+    second: Chaqueta-sobre-silla
+  - first:
+      213: -5556506310598666231
+    second: Closet-sin-fotos
+  - first:
+      213: -5538642102254451589
+    second: Computadora
+  - first:
+      213: 6368297493069419074
+    second: Cuadro-1
+  - first:
+      213: 6704611499678829519
+    second: Cuadro-2
+  - first:
+      213: 1837435440871610004
+    second: Cuadro-Televisor
+  - first:
+      213: 6549427467797935189
+    second: Cubo-Letra
+  - first:
+      213: 578044937527891279
+    second: Cubos-Letras
+  - first:
+      213: -5289361389093975185
+    second: Foto-1-Closet
+  - first:
+      213: -682443095050116500
+    second: Foto-2-Closet
+  - first:
+      213: 4752999788980446491
+    second: Tierra-Globo
+  - first:
+      213: 8192305883639965508
+    second: Libro-bajo-la-mesa-2
+  - first:
+      213: -5291988025769645612
+    second: Lampara-en-Escritorio
+  - first:
+      213: -4332047046839548170
+    second: Libros-bajo-la-mesa-1
+  - first:
+      213: -5456723793675250570
+    second: Libros-Escritorio
+  - first:
+      213: 550238539260163454
+    second: Mesa-Escritorio
+  - first:
+      213: -1246812393619677369
+    second: Mesa-y-Luz
+  - first:
+      213: -8065172858667651549
+    second: Mesedora
+  - first:
+      213: 447893303421467530
+    second: Silla-con-Ropa
+  - first:
+      213: 3044968132650427709
+    second: Silla-Escritorio
+  - first:
+      213: 6826186261301308325
+    second: Silla-sin-Ropa
+  - first:
+      213: 5094225583471959674
+    second: Sillon
+  - first:
+      213: 3477522113887314557
+    second: Televisor
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Caja-2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 3500
+        width: 386
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8b2bcd78e70f300800000000000000
+      internalID: 283865898512726190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cajas-1
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 3486
+        width: 382
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a498af79d8ca3a70800000000000000
+      internalID: 8807572857751639202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chaqueta-sobre-silla
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 3465
+        width: 211
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e79efb49c38b980800000000000000
+      internalID: -8522995685226086824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Closet-sin-fotos
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 3342
+        width: 491
+        height: 589
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908dc8c33f253e2b0800000000000000
+      internalID: -5556506310598666231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computadora
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 3521
+        width: 298
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74c91d5a5ac223b0800000000000000
+      internalID: -5538642102254451589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuadro-1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 2738
+        width: 253
+        height: 246
+      alignment: 9
+      pivot: {x: 0.5076149, y: 0.76627606}
+      border: {x: 62, y: 62, z: 77, w: 39}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242d96a44dcb06850800000000000000
+      internalID: 6368297493069419074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuadro-2
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 2759
+        width: 225
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb0b5be2a09b0d50800000000000000
+      internalID: 6704611499678829519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuadro-Televisor
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 2773
+        width: 165
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4969dde5cc1ef7910800000000000000
+      internalID: 1837435440871610004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cubo-Letra
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 2794
+        width: 179
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5543844e49d34ea50800000000000000
+      internalID: 6549427467797935189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cubos-Letras
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 2770
+        width: 383
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45109ddec0a50800800000000000000
+      internalID: 578044937527891279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foto-1-Closet
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1980
+        width: 126
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b036247d96896b0800000000000000
+      internalID: -5289361389093975185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foto-2-Closet
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1952
+        width: 136
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62ae1cee997786f0800000000000000
+      internalID: -682443095050116500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tierra-Globo
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1886
+        width: 281
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15afa7202c06f140800000000000000
+      internalID: 4752999788980446491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Libro-bajo-la-mesa-2
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 1949
+        width: 222
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447e3b5ebcae0b170800000000000000
+      internalID: 8192305883639965508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampara-en-Escritorio
+      rect:
+        serializedVersion: 2
+        x: 2605
+        y: 1780
+        width: 246
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d92160cde41f86b0800000000000000
+      internalID: -5291988025769645612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Libros-bajo-la-mesa-1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1138
+        width: 186
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f649deb92a71e3c0800000000000000
+      internalID: -4332047046839548170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Libros-Escritorio
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1096
+        width: 189
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6749090ee92d544b0800000000000000
+      internalID: -5456723793675250570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa-Escritorio
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 973
+        width: 604
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75f4524907d2a700800000000000000
+      internalID: 550238539260163454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa-y-Luz
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 952
+        width: 390
+        height: 516
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f9eb0ebbe62bee0800000000000000
+      internalID: -1246812393619677369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesedora
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 1047
+        width: 491
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e2ef22400c21090800000000000000
+      internalID: -8065172858667651549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silla-con-Ropa
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 191
+        width: 403
+        height: 509
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b76bf169c373600800000000000000
+      internalID: 447893303421467530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silla-Escritorio
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 198
+        width: 425
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35630b3266e14a20800000000000000
+      internalID: 3044968132650427709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silla-sin-Ropa
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 212
+        width: 435
+        height: 505
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab248bec3c7bbe50800000000000000
+      internalID: 6826186261301308325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sillon
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 205
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e9d848d2352b640800000000000000
+      internalID: 5094225583471959674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Televisor
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 260
+        width: 396
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72a1d810f3a24030800000000000000
+      internalID: 3477522113887314557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

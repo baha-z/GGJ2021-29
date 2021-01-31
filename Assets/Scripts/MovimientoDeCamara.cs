@@ -7,16 +7,16 @@ public class MovimientoDeCamara : MonoBehaviour
 
     public Vector2 minCamPos, maxCamPos;
     float posX = 0;
-    float posY = 1;
+    float posY = 0;
 
     void FixedUpdate()
     {
 
-        if(Input.GetKey(KeyCode.W)) {
+        /*if(Input.GetKey(KeyCode.W)) {
             if(maxCamPos.y > posY) {
                 posY += 0.2f;
             }
-        }
+        }*/
 
         if(Input.GetKey(KeyCode.A)) {
             if(minCamPos.x < posX) {
@@ -24,11 +24,11 @@ public class MovimientoDeCamara : MonoBehaviour
             }
         }
 
-        if(Input.GetKey(KeyCode.S)) {
+        /*if(Input.GetKey(KeyCode.S)) {
             if(minCamPos.y < posY) {
                 posY -= 0.2f;
             }
-        }
+        }*/
 
         if(Input.GetKey(KeyCode.D)) {
             if(maxCamPos.x > posX) {
