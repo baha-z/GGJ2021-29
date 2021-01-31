@@ -1,6 +1,6 @@
 # 4GotUrPswrd 👨‍💻👩‍💻
 
-Es un juego creado por 6 personas que se unieron para participar en el [Global Game Jam 2021 Online](https://globalgamejam.org/2021/jam-sites/pontificia-universidad-cat%C3%B3lica-de-chile).
+Es un juego creado en Unity por 6 personas que se unieron para participar en el [Global Game Jam 2021 Online](https://globalgamejam.org/2021/jam-sites/pontificia-universidad-cat%C3%B3lica-de-chile).
 
 ### Descripción del juego🎮
 
@@ -15,3 +15,18 @@ Me encuentro perdido dentro de mi propia casa, necesito abrir mi caja fuerte, pe
 Para comenzar a probar el juego solo debes entrar a [aquí](#).
 
 ![4goturpswrd](https://i.imgur.com/cmFcnLp.jpg)
+
+### Agradecimientos 👌
+
+Agradecemos a Global Game Jam por la oportunidad y a todos los participantes del juego que se dieron el tiempo de estar 48 horas creando, aprendiendo y haciendo.
+
+- [Alvaro (Programmer)](https://github.com/alv-alvarez)
+- [Hector (Programmer)](https://github.com/baha-z/)
+- [Leonardo (Designer)](https://www.behance.net/leonardoastete)
+- [Leonel (Programmer)](https://github.com/Loneck)
+- [Martin (Programmer)](https://github.com/Marth30)
+- [Phoebe (Programmer)](https://github.com/Phoebe-WD)
+
+Todos los participantes estuvieron presentes en cada idea, decisión y creación del juego.
+
+👏👏👏
