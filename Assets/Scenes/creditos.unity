@@ -438,7 +438,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "4GotUrPswrd\n\nCr\xE9ditos\n\nProgrammers\n\nAlvaro\nHector\nLeonel\nPhoebe\n\nDesigner\n\nLeonardo\n\nAgradecemos
+  m_Text: "4GotUrPswrd\n\nCr\xE9ditos\n\nProgrammers\n\nAlvaro\nHector\nLeonel\nMartin\nPhoebe\n\nDesigner\n\nLeonardo\n\nAgradecemos
     a todos los que confiaron en nosotros, pensamos que fallariamos en el intento,
     pero si se pudo"
 --- !u!222 &711316286
@@ -614,7 +614,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131950060}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1326, y: -750, z: -96.29583}
+  m_LocalPosition: {x: -1326, y: -775, z: -96.29583}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 711316284}
