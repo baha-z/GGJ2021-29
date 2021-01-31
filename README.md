@@ -12,7 +12,7 @@ Me encuentro perdido dentro de mi propia casa, necesito abrir mi caja fuerte, pe
 
 ### Cómo jugar 🔧
 
-Para comenzar a probar el juego solo debes entrar a [aquí](#).
+Todavía es un misterio...
 
 ![4goturpswrd](https://i.imgur.com/cmFcnLp.jpg)
 
