@@ -7,7 +7,11 @@ public class Item : MonoBehaviour
 {
     public ControlCursor controlCursor;
     public Text displayText;
+    public Text textforGrab;
     public string description;
+    public string grabText;
+    public bool canGrab; // can add this to the inventory
+    public bool shouldClear; // if you grab it, should dissapear from map 
     Animator animator;
 
     // Start is called before the first frame update
@@ -30,7 +34,31 @@ public class Item : MonoBehaviour
             animator = gameObject.GetComponent<Animator>();
             animator.SetBool("Activo", true);
             displayText.text = description;
+            if (canGrab)
+            {
+                // yield return new WaitForSeconds(2);
+                textforGrab.text = grabText;
+                //canGrab = false;
+                AddtoInventory();
+                if (shouldClear)
+                {
+                    removeItem();
+                }
+            }
+            //yield return new WaitForSeconds(4);
+            //grabText = '';
         }
+    }
+
+    void AddtoInventory()
+    {
+        Debug.Log("added to inventory");
+    }
+
+    void removeItem()
+    {
+        Debug.Log("me borre la wea");
+        Destroy(this);
     }
 
     void OnMouseExit()
