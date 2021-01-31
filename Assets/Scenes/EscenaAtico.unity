@@ -673,7 +673,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.07101375, y: -0.4579636}
@@ -730,7 +730,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678089920}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.08, y: -4.54, z: 0}
+  m_LocalPosition: {x: 0.48, y: -3.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
@@ -1039,6 +1039,8 @@ GameObject:
   - component: {fileID: 762934211}
   - component: {fileID: 762934212}
   - component: {fileID: 762934213}
+  - component: {fileID: 762934214}
+  - component: {fileID: 762934215}
   m_Layer: 0
   m_Name: Caja-2
   m_TagString: Untagged
@@ -1099,7 +1101,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 283865898512726190, guid: 7bb635dd35f8f204aafa82defffba000, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1121,7 +1123,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1137,6 +1139,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.41, y: 1.8305202}
   m_EdgeRadius: 0
+--- !u!95 &762934214
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762934210}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d7cbfdbe8a6c8d443bdc35d9496c6a4e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &762934215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762934210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e08191860964136b2d02ad48e4661e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlCursor: {fileID: 2000789370}
+  displayText: {fileID: 1998443116}
+  description: "Hay 3 frijoles dentro de la caja, \xBFquien los pondr\xEDa ah\xED?"
 --- !u!1 &799557347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1148,6 +1184,8 @@ GameObject:
   - component: {fileID: 799557348}
   - component: {fileID: 799557349}
   - component: {fileID: 799557350}
+  - component: {fileID: 799557352}
+  - component: {fileID: 799557351}
   m_Layer: 0
   m_Name: Chaqueta-sobre-silla
   m_TagString: Untagged
@@ -1206,8 +1244,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -969084993
+  m_SortingLayer: 1
   m_SortingOrder: 2
   m_Sprite: {fileID: -8522995685226086824, guid: 7bb635dd35f8f204aafa82defffba000, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1230,7 +1268,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1246,6 +1284,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2600001, y: 2.930833}
   m_EdgeRadius: 0
+--- !u!114 &799557351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799557347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e08191860964136b2d02ad48e4661e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlCursor: {fileID: 2000789370}
+  displayText: {fileID: 1998443116}
+  description: 
+--- !u!95 &799557352
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799557347}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8e4dfd5bb32a3c84eb20ec6a13f5c656, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &810147928
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,6 +1437,8 @@ GameObject:
   m_Component:
   - component: {fileID: 946950463}
   - component: {fileID: 946950464}
+  - component: {fileID: 946950467}
+  - component: {fileID: 946950466}
   - component: {fileID: 946950465}
   m_Layer: 0
   m_Name: Tierra-Globo
@@ -1381,7 +1455,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 946950462}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6, y: -4.49, z: 0}
+  m_LocalPosition: {x: -0.65, y: -5.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
@@ -1451,10 +1525,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.21469659, y: 0.6609085}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.69697, y: 0.05356742}
     oldSize: {x: 1.09, y: 1.4804207}
     newSize: {x: 2.8100002, y: 2.6307478}
     adaptiveTilingThreshold: 0.5
@@ -1464,6 +1538,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.09, y: 1.4804207}
   m_EdgeRadius: 0
+--- !u!114 &946950466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946950462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e08191860964136b2d02ad48e4661e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlCursor: {fileID: 2000789370}
+  displayText: {fileID: 1998443116}
+  description: El planeta donde alguna vez vivi
+--- !u!95 &946950467
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946950462}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9fa3486de3c461f4eadab1e6f138cd14, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1005411775
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,6 +1583,8 @@ GameObject:
   - component: {fileID: 1005411776}
   - component: {fileID: 1005411777}
   - component: {fileID: 1005411778}
+  - component: {fileID: 1005411779}
+  - component: {fileID: 1005411780}
   m_Layer: 0
   m_Name: Computadora
   m_TagString: Untagged
@@ -1573,6 +1683,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.0800002, y: 1.4904236}
   m_EdgeRadius: 0
+--- !u!114 &1005411779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005411775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e08191860964136b2d02ad48e4661e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlCursor: {fileID: 2000789370}
+  displayText: {fileID: 1998443116}
+  description: "No tiene energ\xEDa"
+--- !u!95 &1005411780
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005411775}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0aaa1253d9d26ce46911bf7bd8eaebd2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1109037305
 GameObject:
   m_ObjectHideFlags: 0
@@ -1584,6 +1728,8 @@ GameObject:
   - component: {fileID: 1109037306}
   - component: {fileID: 1109037307}
   - component: {fileID: 1109037308}
+  - component: {fileID: 1109037309}
+  - component: {fileID: 1109037310}
   m_Layer: 0
   m_Name: Cubo-Letra
   m_TagString: Untagged
@@ -1666,10 +1812,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.022583246}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1680,8 +1826,42 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.50014216}
+  m_Size: {x: 1, y: 0.5453086}
   m_EdgeRadius: 0
+--- !u!95 &1109037309
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109037305}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dec86bf3a29f12d4c833603f24220671, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1109037310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109037305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e08191860964136b2d02ad48e4661e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlCursor: {fileID: 2000789370}
+  displayText: {fileID: 1998443116}
+  description: Es un... se movio solo???
 --- !u!1 &1152990244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1911,6 +2091,8 @@ GameObject:
   - component: {fileID: 1274387088}
   - component: {fileID: 1274387089}
   - component: {fileID: 1274387090}
+  - component: {fileID: 1274387091}
+  - component: {fileID: 1274387092}
   m_Layer: 0
   m_Name: Cubos-Letras
   m_TagString: Untagged
@@ -1926,7 +2108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274387087}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.36, y: -4.57, z: 0}
+  m_LocalPosition: {x: 4.59, y: -4.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
@@ -2009,6 +2191,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.63, y: 1.0102872}
   m_EdgeRadius: 0
+--- !u!95 &1274387091
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274387087}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3fb3d10a7717de041a3297add055802b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1274387092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274387087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e08191860964136b2d02ad48e4661e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlCursor: {fileID: 2000789370}
+  displayText: {fileID: 1998443116}
+  description: Parece que faltan cubos
 --- !u!1 &1440533268
 GameObject:
   m_ObjectHideFlags: 0
@@ -2117,6 +2333,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1485628482}
   - component: {fileID: 1485628481}
+  - component: {fileID: 1485628485}
+  - component: {fileID: 1485628484}
   - component: {fileID: 1485628483}
   m_Layer: 0
   m_Name: Silla-con-Ropa
@@ -2164,7 +2382,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 4
   m_Sprite: {fileID: 447893303421467530, guid: 7bb635dd35f8f204aafa82defffba000, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2184,13 +2402,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485628480}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.59, y: -2.86, z: 0}
+  m_LocalPosition: {x: -7.42, y: -4.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1485628483
+--- !u!114 &1485628483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485628480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e08191860964136b2d02ad48e4661e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlCursor: {fileID: 2000789370}
+  displayText: {fileID: 1998443116}
+  description: Ups
+--- !u!95 &1485628484
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485628480}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0ccf037b397ac92448a7c5ddc7817906, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &1485628485
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2203,10 +2455,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.8269979, y: 1.9545426}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.22154945, y: 0.0222525}
     oldSize: {x: 2.97, y: 4.0911627}
     newSize: {x: 4.03, y: 5.091447}
     adaptiveTilingThreshold: 0.5
@@ -2227,6 +2479,8 @@ GameObject:
   - component: {fileID: 1568825337}
   - component: {fileID: 1568825338}
   - component: {fileID: 1568825339}
+  - component: {fileID: 1568825341}
+  - component: {fileID: 1568825340}
   m_Layer: 0
   m_Name: Cuadro-Televisor
   m_TagString: Untagged
@@ -2309,7 +2563,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2325,6 +2579,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.89000005, y: 0.95027}
   m_EdgeRadius: 0
+--- !u!114 &1568825340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568825336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e08191860964136b2d02ad48e4661e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlCursor: {fileID: 2000789370}
+  displayText: {fileID: 1998443116}
+  description: "Foto de mi ex, nada que ver aqu\xED"
+--- !u!95 &1568825341
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568825336}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a36f0171f0bfe5440afdd62032b0bfe5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1586737142
 GameObject:
   m_ObjectHideFlags: 0
@@ -2336,6 +2624,8 @@ GameObject:
   - component: {fileID: 1586737143}
   - component: {fileID: 1586737144}
   - component: {fileID: 1586737145}
+  - component: {fileID: 1586737147}
+  - component: {fileID: 1586737146}
   m_Layer: 0
   m_Name: Televisor
   m_TagString: Untagged
@@ -2351,7 +2641,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586737142}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.87, y: -3.07, z: 0}
+  m_LocalPosition: {x: 6.51, y: -3.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
@@ -2434,6 +2724,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.42, y: 2.8408072}
   m_EdgeRadius: 0
+--- !u!114 &1586737146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586737142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e08191860964136b2d02ad48e4661e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlCursor: {fileID: 2000789370}
+  displayText: {fileID: 1998443116}
+  description: "Hay algo detr\xE1s del televisor"
+--- !u!95 &1586737147
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586737142}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ed99493361d97234eb1252b737d2ecfb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1649325293
 GameObject:
   m_ObjectHideFlags: 0
@@ -2554,6 +2878,8 @@ GameObject:
   - component: {fileID: 1761055046}
   - component: {fileID: 1761055047}
   - component: {fileID: 1761055048}
+  - component: {fileID: 1761055050}
+  - component: {fileID: 1761055049}
   m_Layer: 0
   m_Name: Cuadro-2
   m_TagString: Untagged
@@ -2636,7 +2962,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2652,6 +2978,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1800001, y: 1.2503554}
   m_EdgeRadius: 0
+--- !u!114 &1761055049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761055045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e08191860964136b2d02ad48e4661e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlCursor: {fileID: 2000789370}
+  displayText: {fileID: 1998443116}
+  description: Parece que estaba mal puesto
+--- !u!95 &1761055050
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761055045}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 70bdfd17584641245990609ec65168a4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1998443114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2788,6 +3148,8 @@ GameObject:
   - component: {fileID: 1999446872}
   - component: {fileID: 1999446873}
   - component: {fileID: 1999446874}
+  - component: {fileID: 1999446876}
+  - component: {fileID: 1999446875}
   m_Layer: 0
   m_Name: Sillon
   m_TagString: Untagged
@@ -2886,6 +3248,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.0800004, y: 4.0611544}
   m_EdgeRadius: 0
+--- !u!114 &1999446875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999446871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e08191860964136b2d02ad48e4661e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlCursor: {fileID: 2000789370}
+  displayText: {fileID: 1998443116}
+  description: "Solo polvo y ara\xF1as"
+--- !u!95 &1999446876
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999446871}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 17275b54ef99e874fb472ff736d91169, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2000789369
 GameObject:
   m_ObjectHideFlags: 0
@@ -3001,9 +3397,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: -674200829
+  m_SortingLayer: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 8807572857751639202, guid: 7bb635dd35f8f204aafa82defffba000, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

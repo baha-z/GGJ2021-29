@@ -10,26 +10,20 @@ public class Item : MonoBehaviour
     public string description;
     Animator animator;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void OnMouseOver()
     {
         controlCursor.CambiarCursor("mano");
-        if (Input.GetMouseButtonDown(0))
-        {
-            animator = gameObject.GetComponent<Animator>();
+        animator = gameObject.GetComponent<Animator>();
+        
+        if (Input.GetMouseButtonDown(0)) {
             animator.SetBool("Activo", true);
             displayText.text = description;
+        }
+
+        if(Input.GetMouseButtonUp(0)) {
+            if(animator.GetInteger("Repeticion") == 1) {
+                animator.SetBool("Activo", false);
+            }
         }
     }
 
