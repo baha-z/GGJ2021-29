@@ -149,11 +149,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3146166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.39, y: -1.99, z: 0}
+  m_LocalPosition: {x: -0.01, y: 0.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 697654739}
-  m_RootOrder: 14
+  m_Father: {fileID: 391010069}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3146168
 SpriteRenderer:
@@ -262,7 +262,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &390661461
 SpriteRenderer:
@@ -369,9 +369,13 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -11.35, y: -1.9232011, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 3146167}
+  - {fileID: 447913612}
+  - {fileID: 1649325294}
+  - {fileID: 799557348}
   m_Father: {fileID: 697654739}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &391010070
 SpriteRenderer:
@@ -461,6 +465,8 @@ GameObject:
   - component: {fileID: 447913612}
   - component: {fileID: 447913613}
   - component: {fileID: 447913614}
+  - component: {fileID: 447913616}
+  - component: {fileID: 447913615}
   m_Layer: 0
   m_Name: Foto-2-Closet
   m_TagString: Untagged
@@ -476,11 +482,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447913611}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.24, y: -0.68, z: 0}
+  m_LocalPosition: {x: 1.01, y: 1.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 697654739}
-  m_RootOrder: 15
+  m_Father: {fileID: 391010069}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &447913613
 SpriteRenderer:
@@ -519,9 +525,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingLayerID: -969084993
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: -682443095050116500, guid: 7bb635dd35f8f204aafa82defffba000, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -543,10 +549,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.017333508, y: -0.025999904}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -557,8 +563,46 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.44000003, y: 0.29008245}
+  m_Size: {x: 0.6133337, y: 0.4114151}
   m_EdgeRadius: 0
+--- !u!95 &447913615
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447913611}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6a2e7ecb5501c554e8195a7315a43bc2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &447913616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447913611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e08191860964136b2d02ad48e4661e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlCursor: {fileID: 2000789370}
+  displayText: {fileID: 1998443116}
+  textforGrab: {fileID: 0}
+  description: Psswrd??, el manzano amarillo
+  grabText: 
+  canGrab: 0
+  shouldClear: 0
 --- !u!1 &512099075
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,7 +635,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 17
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &512099077
 SpriteRenderer:
@@ -703,7 +747,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlCursor: {fileID: 2000789370}
   displayText: {fileID: 1998443116}
+  textforGrab: {fileID: 0}
   description: Solo un cuadro lleno de polvo
+  grabText: 
+  canGrab: 0
+  shouldClear: 0
 --- !u!1 &678089920
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,7 +782,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &678089922
 SpriteRenderer:
@@ -893,9 +941,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 762934211}
-  - {fileID: 2092804991}
-  - {fileID: 799557348}
   - {fileID: 391010069}
+  - {fileID: 2092804991}
   - {fileID: 1274387088}
   - {fileID: 1999446872}
   - {fileID: 390661460}
@@ -904,10 +951,7 @@ Transform:
   - {fileID: 946950463}
   - {fileID: 1152990245}
   - {fileID: 678089921}
-  - {fileID: 1649325294}
   - {fileID: 716597861}
-  - {fileID: 3146167}
-  - {fileID: 447913612}
   - {fileID: 1109037306}
   - {fileID: 512099076}
   - {fileID: 1761055046}
@@ -949,7 +993,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &716597862
 SpriteRenderer:
@@ -1172,7 +1216,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlCursor: {fileID: 2000789370}
   displayText: {fileID: 1998443116}
+  textforGrab: {fileID: 0}
   description: "Hay 3 frijoles dentro de la caja, \xBFquien los pondr\xEDa ah\xED?"
+  grabText: 
+  canGrab: 0
+  shouldClear: 0
 --- !u!1 &799557347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1201,11 +1249,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 799557347}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.25, y: -0.69, z: 0}
+  m_LocalPosition: {x: 1.1000004, y: 1.233201, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 697654739}
-  m_RootOrder: 2
+  m_Father: {fileID: 391010069}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &799557349
 SpriteRenderer:
@@ -1244,8 +1292,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -969084993
-  m_SortingLayer: 1
+  m_SortingLayerID: -674200829
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: -8522995685226086824, guid: 7bb635dd35f8f204aafa82defffba000, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1298,7 +1346,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlCursor: {fileID: 2000789370}
   displayText: {fileID: 1998443116}
+  textforGrab: {fileID: 0}
   description: 
+  grabText: 
+  canGrab: 0
+  shouldClear: 0
 --- !u!95 &799557352
 Animator:
   serializedVersion: 3
@@ -1348,7 +1400,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &810147930
 SpriteRenderer:
@@ -1459,7 +1511,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &946950464
 SpriteRenderer:
@@ -1552,7 +1604,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlCursor: {fileID: 2000789370}
   displayText: {fileID: 1998443116}
+  textforGrab: {fileID: 0}
   description: El planeta donde alguna vez vivi
+  grabText: 
+  canGrab: 0
+  shouldClear: 0
 --- !u!95 &946950467
 Animator:
   serializedVersion: 3
@@ -1604,7 +1660,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 20
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1005411777
 SpriteRenderer:
@@ -1697,7 +1753,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlCursor: {fileID: 2000789370}
   displayText: {fileID: 1998443116}
+  textforGrab: {fileID: 0}
   description: "No tiene energ\xEDa"
+  grabText: 
+  canGrab: 0
+  shouldClear: 0
 --- !u!95 &1005411780
 Animator:
   serializedVersion: 3
@@ -1749,7 +1809,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 16
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1109037307
 SpriteRenderer:
@@ -1861,7 +1921,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlCursor: {fileID: 2000789370}
   displayText: {fileID: 1998443116}
+  textforGrab: {fileID: 0}
   description: Es un... se movio solo???
+  grabText: 
+  canGrab: 0
+  shouldClear: 0
 --- !u!1 &1152990244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1892,7 +1956,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1152990246
 SpriteRenderer:
@@ -2001,7 +2065,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 21
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1263780446
 SpriteRenderer:
@@ -2112,7 +2176,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1274387089
 SpriteRenderer:
@@ -2224,7 +2288,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlCursor: {fileID: 2000789370}
   displayText: {fileID: 1998443116}
+  textforGrab: {fileID: 0}
   description: Parece que faltan cubos
+  grabText: 
+  canGrab: 0
+  shouldClear: 0
 --- !u!1 &1440533268
 GameObject:
   m_ObjectHideFlags: 0
@@ -2380,8 +2448,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -674200829
+  m_SortingLayer: 2
   m_SortingOrder: 4
   m_Sprite: {fileID: 447893303421467530, guid: 7bb635dd35f8f204aafa82defffba000, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2406,7 +2474,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 22
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1485628483
 MonoBehaviour:
@@ -2422,7 +2490,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlCursor: {fileID: 2000789370}
   displayText: {fileID: 1998443116}
+  textforGrab: {fileID: 0}
   description: Ups
+  grabText: 
+  canGrab: 0
+  shouldClear: 0
 --- !u!95 &1485628484
 Animator:
   serializedVersion: 3
@@ -2500,7 +2572,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 19
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1568825338
 SpriteRenderer:
@@ -2593,7 +2665,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlCursor: {fileID: 2000789370}
   displayText: {fileID: 1998443116}
+  textforGrab: {fileID: 0}
   description: "Foto de mi ex, nada que ver aqu\xED"
+  grabText: 
+  canGrab: 0
+  shouldClear: 0
 --- !u!95 &1568825341
 Animator:
   serializedVersion: 3
@@ -2645,7 +2721,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1586737144
 SpriteRenderer:
@@ -2738,7 +2814,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlCursor: {fileID: 2000789370}
   displayText: {fileID: 1998443116}
+  textforGrab: {fileID: 0}
   description: "Hay algo detr\xE1s del televisor"
+  grabText: 
+  canGrab: 0
+  shouldClear: 0
 --- !u!95 &1586737147
 Animator:
   serializedVersion: 3
@@ -2784,11 +2864,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649325293}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.87, y: 0.61, z: 0}
+  m_LocalPosition: {x: -0.5199995, y: 2.5332012, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 697654739}
-  m_RootOrder: 12
+  m_Father: {fileID: 391010069}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1649325295
 SpriteRenderer:
@@ -2829,7 +2909,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 8192305883639965508, guid: 7bb635dd35f8f204aafa82defffba000, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2899,7 +2979,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 18
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1761055047
 SpriteRenderer:
@@ -2992,7 +3072,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlCursor: {fileID: 2000789370}
   displayText: {fileID: 1998443116}
+  textforGrab: {fileID: 0}
   description: Parece que estaba mal puesto
+  grabText: 
+  canGrab: 0
+  shouldClear: 0
 --- !u!95 &1761055050
 Animator:
   serializedVersion: 3
@@ -3029,7 +3113,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2736355559094389833, guid: 275620068495fe84da4df2f0a4ff04e0, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 2736355559094389833, guid: 275620068495fe84da4df2f0a4ff04e0, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3169,7 +3253,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1999446873
 SpriteRenderer:
@@ -3262,7 +3346,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlCursor: {fileID: 2000789370}
   displayText: {fileID: 1998443116}
+  textforGrab: {fileID: 0}
   description: "Solo polvo y ara\xF1as"
+  grabText: 
+  canGrab: 0
+  shouldClear: 0
 --- !u!95 &1999446876
 Animator:
   serializedVersion: 3
@@ -3339,6 +3427,8 @@ GameObject:
   - component: {fileID: 2092804991}
   - component: {fileID: 2092804992}
   - component: {fileID: 2092804993}
+  - component: {fileID: 2092804994}
+  - component: {fileID: 2092804995}
   m_Layer: 0
   m_Name: Cajas-1
   m_TagString: Untagged
@@ -3358,7 +3448,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697654739}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2092804992
 SpriteRenderer:
@@ -3397,8 +3487,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -674200829
-  m_SortingLayer: 2
+  m_SortingLayerID: -325718141
+  m_SortingLayer: 3
   m_SortingOrder: 3
   m_Sprite: {fileID: 8807572857751639202, guid: 7bb635dd35f8f204aafa82defffba000, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3437,3 +3527,41 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.97, y: 2.2206311}
   m_EdgeRadius: 0
+--- !u!95 &2092804994
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092804990}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 659e07b59ba2a764db38ae944ee76640, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2092804995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092804990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e08191860964136b2d02ad48e4661e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlCursor: {fileID: 2000789370}
+  displayText: {fileID: 1998443116}
+  textforGrab: {fileID: 1998443116}
+  description: Parece que solo hay dinero dentro
+  grabText: Parece que lo agarre?
+  canGrab: 1
+  shouldClear: 0

@@ -47,3 +47,6 @@ TagManager:
   - name: capa2
     uniqueID: 3620766467
     locked: 0
+  - name: capa3
+    uniqueID: 3969249155
+    locked: 0
