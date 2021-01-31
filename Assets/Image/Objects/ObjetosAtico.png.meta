@@ -181,10 +181,10 @@ TextureImporter:
       name: Caja-2
       rect:
         serializedVersion: 2
-        x: 121
-        y: 3500
-        width: 386
-        height: 284
+        x: 189
+        y: 3549
+        width: 241
+        height: 183
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: Cajas-1
       rect:
         serializedVersion: 2
-        x: 725
-        y: 3486
-        width: 382
-        height: 305
+        x: 772
+        y: 3526
+        width: 297
+        height: 222
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,13 +286,13 @@ TextureImporter:
       name: Cuadro-1
       rect:
         serializedVersion: 2
-        x: 188
-        y: 2738
-        width: 253
-        height: 246
+        x: 241
+        y: 2789
+        width: 137
+        height: 163
       alignment: 9
       pivot: {x: 0.5076149, y: 0.76627606}
-      border: {x: 62, y: 62, z: 77, w: 39}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
