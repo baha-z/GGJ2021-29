@@ -1,4 +1,4 @@
-# 4GotUrPswrd 👨‍💻👩‍💻
+# 4gotUrPswrd 👨‍💻👩‍💻
 
 Es un juego creado en Unity por 6 personas que se unieron para participar en el [Global Game Jam 2021 Online](https://globalgamejam.org/2021/jam-sites/pontificia-universidad-cat%C3%B3lica-de-chile).
 
